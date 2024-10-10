@@ -36,13 +36,13 @@ header {
     border: 1px solid #d1d1d1;
     padding: 15px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .noticia:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 16px rgb(0, 0, 0);
 }
 
 .noticia img {
@@ -54,14 +54,14 @@ header {
 .noticia h2 {
     font-size: 20px;
     margin: 10px 0;
-    color: #5c7f99;
+    color: #000000;
 }
 
 .noticia p {
     font-size: 16px;
     line-height: 1.6;
     margin-bottom: 15px;
-    color: #333333;
+    color: #000000;
 }
 
 .perfil {
@@ -85,7 +85,7 @@ header {
 }
 
 footer {
-    background-color: #5c7f99;
+    background-color: #9cd4ff;
     color: white;
     text-align: center;
     padding: 15px 0;
